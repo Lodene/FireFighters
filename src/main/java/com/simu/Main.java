@@ -22,10 +22,10 @@ import com.simu.service.Api;
 public class Main {
     // api bdd coté réel
     private static final String SENSOR_API_URL_EVENT = "http://localhost:3000/api/event";
+    private static final String SENSOR_API_URL_VEHICLE_ON_EVENT = "http://localhost:3000/api/vehicle/event";
 
     // api bdd coté simu
     private static final String EVENT_API_URL_EVENT_UPDATE = "http://localhost:4000/api/event";
-    private static final String SENSOR_API_URL_VEHICLE_ON_EVENT = "http://localhost:4000/api/vehicle/event";
     private static final String SENSOR_ALL_API_URL_EVENT_TOSTOP = "http://localhost:4000/api/event/tostop";
 
     private static final ScheduledExecutorService executorService = Executors.newScheduledThreadPool(4);
