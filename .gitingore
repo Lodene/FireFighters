@@ -1,0 +1,15 @@
+# Fichiers de l'IDE
+/.idea
+*.iml
+
+# Fichiers de construction
+/target
+/build
+/out
+
+# Fichiers temporaires
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
